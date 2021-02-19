@@ -66,7 +66,7 @@ const App: React.FC = () => {
       });
     });
 
-    setTimeout(runSim, 10);
+    setTimeout(runSim, 250);
   }, []);
   //inline style must use double braces in react
   return (
